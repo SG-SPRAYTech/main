@@ -18,7 +18,7 @@ const Services = () => {
           </h3>
           <p className="p-2 text-start text-gray-700">
             Our consultancy service helps you cut through the noise, providing
-            the strategic guidance needed to achieve the perfect finish. We'll
+            the strategic guidance needed to achieve the perfect finish. We&apos;ll
             help you turn your aspirations into a tangible, lasting reality.
           </p>
         </a>
@@ -33,7 +33,7 @@ const Services = () => {
             <span className="absolute left-0 bottom-[-5px] w-0 h-0.5 bg-green-500 group-hover:w-full transition-all duration-300"></span>
           </h3>
           <p className="p-2 text-start text-gray-700">
-            We provide strategic guidance to optimize your paint shop's
+            We provide strategic guidance to optimize your paint shop&apos;s
             operations. Our focus is to enhance efficiency and productivity,
             helping your business thrive.
           </p>
