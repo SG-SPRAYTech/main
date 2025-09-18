@@ -6,17 +6,20 @@ const Companys = () => {
     {
       name: "NanoFusion Tech",
       desc: "Leading supplier of industrial equipment and solutions...",
-      src: "/paintBG.jpeg",
+      src: "/NanoFusionLogo.png",
+      link: "https://google.com",
     },
     {
       name: "Marvel Paints",
       desc: "Manufacturer of high-quality plastic products...",
-      src: "/paintBG.jpeg",
+      src: "/MarwelLogoBG.png",
+      link: "https://google.com",
     },
     {
       name: "NitroWave SprayTech",
       desc: "Specialists in automotive coatings...",
-      src: "/paintBG.jpeg",
+      src: "/NitoWaveLogoBG.png",
+      link: "https://google.com",
     },
   ];
 
@@ -31,7 +34,7 @@ const Companys = () => {
         {companies.map((company, index) => (
           <div
             key={index}
-            className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center text-center hover:shadow-xl transition"
+            className="bg-gray-300 rounded-lg shadow-md p-6 flex flex-col items-center text-center hover:shadow-xl transition"
           >
             <Image
               alt={`Logo of ${company.name}`}
@@ -41,9 +44,9 @@ const Companys = () => {
               height={150}
               sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
             />
-            {company.src ? (
+            {company.link ? (
               <Link
-                href={company.src}
+                href={company.link}
                 className="text-lg sm:text-xl font-semibold text-blue-700 mb-2 hover:underline"
               >
                 {company.name}
