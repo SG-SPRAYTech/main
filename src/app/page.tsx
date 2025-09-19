@@ -4,6 +4,7 @@ import BodyBG from "./Components/Body/BodyBG";
 import Services from "./Components/Services/Services";
 import Companys from "./Components/Companys/Companys";
 import Footer from "./Components/Footer/Footer";
+import Contact from "./Components/Contact/Contact";
 
 export default function Home() {
   return (
@@ -12,6 +13,7 @@ export default function Home() {
       <BodyBG/>
       <Services/>
       <Companys/>
+      <Contact/>
       <Footer/>
     </div>
   );
