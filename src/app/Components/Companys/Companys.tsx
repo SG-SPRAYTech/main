@@ -1,5 +1,7 @@
 import Image from "next/image";
 import Link from "next/link";
+import Navbar from "../Navbar/Navbar";
+import Footer from "../Footer/Footer";
 
 const Companys = () => {
   const companies = [
@@ -12,11 +14,11 @@ const Companys = () => {
     {
       name: "Marvel Paints",
       desc: "Manufacturer of high-quality plastic products...",
-      src: "/MarwelLogoBG.png",
+      src: "/MarvelPaintsBG.png",
       link: "https://google.com",
     },
     {
-      name: "NitroWave SprayTech",
+      name: "NitroWave Spray Tech",
       desc: "Specialists in automotive coatings...",
       src: "/NitoWaveLogoBG.png",
       link: "https://google.com",
