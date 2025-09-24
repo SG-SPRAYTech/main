@@ -12,7 +12,7 @@ const Navbar = () => {
   const navLinks = [
     { href: '/products', label: 'Products' },
     { href: '/technologies', label: 'Technologies' },
-    { href: '/about-us', label: 'About Us' },
+    { href: '/ContactPage', label: 'About Us' },
   ];
 
   return (
