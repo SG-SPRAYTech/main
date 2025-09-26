@@ -10,7 +10,7 @@ const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navLinks = [
-    { href: '/products', label: 'Products' },
+    { href: '/Product', label: 'Products' },
     { href: '/technologies', label: 'Technologies' },
     { href: '/ContactPage', label: 'About Us' },
   ];
