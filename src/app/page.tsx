@@ -1,20 +1,11 @@
 
-import Navbar from "./Components/Navbar/Navbar";
-import BodyBG from "./Components/Body/BodyBG";
-import Services from "./Components/Services/Services";
-import Companys from "./Components/Companys/Companys";
-import Footer from "./Components/Footer/Footer";
-import Contact from "./Components/Contact/Contact";
+import SGpage from "./Components/SGSpayTech/SGpage";
+import SGGroupPage from "./SG_Group/SGGroup/SGGroupPage";
 
 export default function Home() {
   return (
     <div className="nameArt">
-      <Navbar/>
-      <BodyBG/>
-      <Services/>
-      <Companys/>
-      <Contact/>
-      <Footer/>
+      <SGGroupPage/>
     </div>
   );
 }
