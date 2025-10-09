@@ -13,7 +13,7 @@ const Companys = () => {
       name: "Marvel Paints",
       desc: "Manufacturer of high-quality plastic products...",
       src: "/MarvelPaintsBG.png",
-      link: "/MarvelPaints",
+      link: "https://google.com",
     },
     {
       name: "NitroWave Spray Tech",
@@ -21,16 +21,10 @@ const Companys = () => {
       src: "/NitoWaveLogoBG.png",
       link: "https://google.com",
     },
-    {
-      name: "SG Spray Tech",
-      desc: "Specialists in automotive coatings...",
-      src: "/BGremoveLogo.png",
-      link: "/SGSprayTech",
-    },
   ];
 
   return (
-    <section className="mb-20 px-10" id="companies">
+    <section className="mb-20 px-4" id="companies">
       <h2 className="text-center text-3xl sm:text-4xl font-bold mb-10">
         <span className="bg-gradient-to-r from-blue-300 to-blue-600 text-transparent bg-clip-text">
           Our Company
@@ -40,7 +34,7 @@ const Companys = () => {
         {companies.map((company, index) => (
           <div
             key={index}
-            className="bg-gray-900 rounded-lg shadow-md p-6 flex flex-col items-center text-center hover:shadow-xl transition"
+            className="bg-gray-300 rounded-lg shadow-md p-6 flex flex-col items-center text-center hover:shadow-xl transition"
           >
             <Image
               alt={`Logo of ${company.name}`}
@@ -62,7 +56,7 @@ const Companys = () => {
                 {company.name}
               </h4>
             )}
-            <p className="text-white text-sm sm:text-base">{company.desc}</p>
+            <p className="text-gray-600 text-sm sm:text-base">{company.desc}</p>
           </div>
         ))}
       </div>
