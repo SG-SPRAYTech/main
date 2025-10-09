@@ -1,5 +1,4 @@
 import React from 'react'
-import Link from "next/link";
 import Navbar from './Navbar/Navbar';
 import BodyBG from '../Components/Body/BodyBG';
 import Services from '../Components/Services/Services';
