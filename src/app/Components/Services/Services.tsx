@@ -29,7 +29,7 @@ const Services = () => {
           className="group w-full p-8 border border-green-500 rounded-lg shadow-md hover:border-l-4 hover:border-green-500 transition-all duration-300 transform hover:-translate-y-1 hover:shadow-xl"
         >
           <h3 className="text-2xl font-semibold relative">
-            Paint Shop Consultancy
+            Paint Shop consumable
             <span className="absolute left-0 bottom-[-5px] w-0 h-0.5 bg-green-500 group-hover:w-full transition-all duration-300"></span>
           </h3>
           <p className="p-2 text-start text-gray-700">
