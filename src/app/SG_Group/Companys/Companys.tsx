@@ -4,10 +4,10 @@ import Link from "next/link";
 const Companys = () => {
   const companies = [
     {
-      name: "NanoFusion Tech",
-      desc: "Leading supplier of industrial equipment and solutions...",
-      src: "/NanoFusionLogo.png",
-      link: "https://google.com",
+      name: "SG Spray Tech",
+      desc: "Specialists in automotive coatings...",
+      src: "/BGremoveLogo.png",
+      link: "/SGSprayTech",
     },
     {
       name: "Marvel Paints",
@@ -22,10 +22,10 @@ const Companys = () => {
       link: "https://google.com",
     },
     {
-      name: "SG Spray Tech",
-      desc: "Specialists in automotive coatings...",
-      src: "/BGremoveLogo.png",
-      link: "/SGSprayTech",
+      name: "NanoFusion Tech",
+      desc: "Leading supplier of industrial equipment and solutions...",
+      src: "/NanoFusionLogo.png",
+      link: "https://google.com",
     },
   ];
 
