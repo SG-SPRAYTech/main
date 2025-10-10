@@ -2,7 +2,7 @@
 
 import React from "react";
 import Image from "next/image";
-import Navbar from "@/app/MarvelPaints/Navbar/Navbar";
+import Navbar from "@/app/SGSprayTech/Navbar/Navbar";
 
 interface ContactCardProps {
   title?: string;
@@ -54,7 +54,7 @@ const ContactPage = () => {
   return (
     <main className="bg-gray-50 min-h-screen text-gray-800">
       {/* ✅ Navbar will only come from here now */}
-      <Navbar />
+      <Navbar/>
 
       <div className="bg-blue-500 h-2 w-full" />
 
