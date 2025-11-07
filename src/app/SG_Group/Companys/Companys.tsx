@@ -12,7 +12,7 @@ const Companys = () => {
     {
       name: "Marvel Paints",
       desc: "Manufacturer of high-quality plastic products...",
-      src: "/MarvelPaintsBG.png",
+      src: "/sample-removebg-preview.png",
       link: "/MarvelPaints",
     },
     {
@@ -47,7 +47,7 @@ const Companys = () => {
               className="object-contain mb-4"
               src={company.src}
               width={150}
-              height={150}
+              height={160}
               sizes="(max-width: 768px) 100px, (max-width: 1200px) 150px, 200px"
             />
             {company.link ? (
