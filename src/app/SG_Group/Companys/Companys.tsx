@@ -12,7 +12,7 @@ const Companys = () => {
     {
       name: "Marvel Paints",
       desc: "Manufacturer of high-quality plastic products...",
-      src: "/sample-removebg-preview.png",
+      src: "/MarvelPaintsBG.png",
       link: "/MarvelPaints",
     },
     {
