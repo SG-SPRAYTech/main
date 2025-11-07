@@ -20,9 +20,6 @@ const BodyBG = () => {
 
       {/* Text Content */}
       <div className="relative px-4 text-center w-full">
-        <h1 className="text-4xl sm:text-5xl md:text-7xl font-extrabold tracking-tight">
-          Making paints
-        </h1>
         <p className="mt-4 max-w-3xl mx-auto text-lg sm:text-xl md:text-2xl text-gray-200 leading-relaxed">
           Find innovative production technology for making paints & connect
           directly with world-best specialist.
